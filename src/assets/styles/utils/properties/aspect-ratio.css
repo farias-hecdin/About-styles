@@ -1,0 +1,8 @@
+/* aspect-ratio */
+
+.ar-1-1 {
+  aspect-ratio: 1 / 1;
+}
+.ar-9-16 {
+  aspect-ratio: 9 / 16;
+}

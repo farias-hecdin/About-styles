@@ -1,0 +1,28 @@
+/* watch */
+
+.watch {
+  outline: 0.125rem dashed var(--th-accent);
+}
+
+.watchAll * {
+  outline: 0.125rem dashed var(--th-accent);
+}
+
+/* un-* */
+
+.unlist > li {
+  list-style: none;
+}
+
+.unselect {
+  user-select: none;
+}
+
+.unlink {
+  &:link,
+  &:active,
+  &:visited {
+    color: var(--th-text);
+    text-decoration: none;
+  }
+}

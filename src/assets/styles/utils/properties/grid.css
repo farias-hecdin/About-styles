@@ -1,0 +1,59 @@
+/* grid-template-columns */
+
+.gc-1 {
+  grid-template-columns: repeat(1, minmax(12.5rem, 1fr));
+}
+.gc-2 {
+  grid-template-columns: repeat(2, minmax(12.5rem, 1fr));
+}
+.gc-3 {
+  grid-template-columns: repeat(3, minmax(12.5rem, 1fr));
+}
+.gc-4 {
+  grid-template-columns: repeat(4, minmax(12.5rem, 1fr));
+}
+.gc-5 {
+  grid-template-columns: repeat(5, minmax(12.5rem, 1fr));
+}
+.gc-6 {
+  grid-template-columns: repeat(6, minmax(12.5rem, 1fr));
+}
+.gc-7 {
+  grid-template-columns: repeat(7, minmax(12.5rem, 1fr));
+}
+.gc-8 {
+  grid-template-columns: repeat(8, minmax(12.5rem, 1fr));
+}
+.gc-9 {
+  grid-template-columns: repeat(9, minmax(12.5rem, 1fr));
+}
+
+/* grid-template-rows */
+
+.gr-1 {
+  grid-template-rows: repeat(1, minmax(12.5rem, 1fr));
+}
+.gr-2 {
+  grid-template-rows: repeat(2, minmax(12.5rem, 1fr));
+}
+.gr-3 {
+  grid-template-rows: repeat(3, minmax(12.5rem, 1fr));
+}
+.gr-4 {
+  grid-template-rows: repeat(4, minmax(12.5rem, 1fr));
+}
+.gr-5 {
+  grid-template-rows: repeat(5, minmax(12.5rem, 1fr));
+}
+.gr-6 {
+  grid-template-rows: repeat(6, minmax(12.5rem, 1fr));
+}
+.gr-7 {
+  grid-template-rows: repeat(7, minmax(12.5rem, 1fr));
+}
+.gr-8 {
+  grid-template-rows: repeat(8, minmax(12.5rem, 1fr));
+}
+.gr-9 {
+  grid-template-rows: repeat(9, minmax(12.5rem, 1fr));
+}

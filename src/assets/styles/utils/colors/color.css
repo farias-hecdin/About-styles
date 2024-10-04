@@ -1,0 +1,484 @@
+/* color */
+
+.c-red {
+  color: var(--red);
+}
+.c-red-5 {
+  color: var(--red-5);
+}
+.c-red-10 {
+  color: var(--red-10);
+}
+.c-red-20 {
+  color: var(--red-20);
+}
+.c-red-30 {
+  color: var(--red-30);
+}
+.c-red-40 {
+  color: var(--red-40);
+}
+.c-red-50 {
+  color: var(--red-50);
+}
+.c-red-60 {
+  color: var(--red-60);
+}
+.c-red-70 {
+  color: var(--red-70);
+}
+.c-red-80 {
+  color: var(--red-80);
+}
+.c-red-90 {
+  color: var(--red-90);
+}
+
+.c-pink {
+  color: var(--pink);
+}
+.c-pink-5 {
+  color: var(--pink-5);
+}
+.c-pink-10 {
+  color: var(--pink-10);
+}
+.c-pink-20 {
+  color: var(--pink-20);
+}
+.c-pink-30 {
+  color: var(--pink-30);
+}
+.c-pink-40 {
+  color: var(--pink-40);
+}
+.c-pink-50 {
+  color: var(--pink-50);
+}
+.c-pink-60 {
+  color: var(--pink-60);
+}
+.c-pink-70 {
+  color: var(--pink-70);
+}
+.c-pink-80 {
+  color: var(--pink-80);
+}
+.c-pink-90 {
+  color: var(--pink-90);
+}
+
+.c-purple {
+  color: var(--purple);
+}
+.c-purple-5 {
+  color: var(--purple-5);
+}
+.c-purple-10 {
+  color: var(--purple-10);
+}
+.c-purple-20 {
+  color: var(--purple-20);
+}
+.c-purple-30 {
+  color: var(--purple-30);
+}
+.c-purple-40 {
+  color: var(--purple-40);
+}
+.c-purple-50 {
+  color: var(--purple-50);
+}
+.c-purple-60 {
+  color: var(--purple-60);
+}
+.c-purple-70 {
+  color: var(--purple-70);
+}
+.c-purple-80 {
+  color: var(--purple-80);
+}
+.c-purple-90 {
+  color: var(--purple-90);
+}
+
+.c-indigo {
+  color: var(--indigo);
+}
+.c-indigo-5 {
+  color: var(--indigo-5);
+}
+.c-indigo-10 {
+  color: var(--indigo-10);
+}
+.c-indigo-20 {
+  color: var(--indigo-20);
+}
+.c-indigo-30 {
+  color: var(--indigo-30);
+}
+.c-indigo-40 {
+  color: var(--indigo-40);
+}
+.c-indigo-50 {
+  color: var(--indigo-50);
+}
+.c-indigo-60 {
+  color: var(--indigo-60);
+}
+.c-indigo-70 {
+  color: var(--indigo-70);
+}
+.c-indigo-80 {
+  color: var(--indigo-80);
+}
+.c-indigo-90 {
+  color: var(--indigo-90);
+}
+
+.c-blue {
+  color: var(--blue);
+}
+.c-blue-5 {
+  color: var(--blue-5);
+}
+.c-blue-10 {
+  color: var(--blue-10);
+}
+.c-blue-20 {
+  color: var(--blue-20);
+}
+.c-blue-30 {
+  color: var(--blue-30);
+}
+.c-blue-40 {
+  color: var(--blue-40);
+}
+.c-blue-50 {
+  color: var(--blue-50);
+}
+.c-blue-60 {
+  color: var(--blue-60);
+}
+.c-blue-70 {
+  color: var(--blue-70);
+}
+.c-blue-80 {
+  color: var(--blue-80);
+}
+.c-blue-90 {
+  color: var(--blue-90);
+}
+
+.c-cyan {
+  color: var(--cyan);
+}
+.c-cyan-5 {
+  color: var(--cyan-5);
+}
+.c-cyan-10 {
+  color: var(--cyan-10);
+}
+.c-cyan-20 {
+  color: var(--cyan-20);
+}
+.c-cyan-30 {
+  color: var(--cyan-30);
+}
+.c-cyan-40 {
+  color: var(--cyan-40);
+}
+.c-cyan-50 {
+  color: var(--cyan-50);
+}
+.c-cyan-60 {
+  color: var(--cyan-60);
+}
+.c-cyan-70 {
+  color: var(--cyan-70);
+}
+.c-cyan-80 {
+  color: var(--cyan-80);
+}
+.c-cyan-90 {
+  color: var(--cyan-90);
+}
+
+.c-teal {
+  color: var(--teal);
+}
+.c-teal-5 {
+  color: var(--teal-5);
+}
+.c-teal-10 {
+  color: var(--teal-10);
+}
+.c-teal-20 {
+  color: var(--teal-20);
+}
+.c-teal-30 {
+  color: var(--teal-30);
+}
+.c-teal-40 {
+  color: var(--teal-40);
+}
+.c-teal-50 {
+  color: var(--teal-50);
+}
+.c-teal-60 {
+  color: var(--teal-60);
+}
+.c-teal-70 {
+  color: var(--teal-70);
+}
+.c-teal-80 {
+  color: var(--teal-80);
+}
+.c-teal-90 {
+  color: var(--teal-90);
+}
+
+.c-green {
+  color: var(--green);
+}
+.c-green-5 {
+  color: var(--green-5);
+}
+.c-green-10 {
+  color: var(--green-10);
+}
+.c-green-20 {
+  color: var(--green-20);
+}
+.c-green-30 {
+  color: var(--green-30);
+}
+.c-green-40 {
+  color: var(--green-40);
+}
+.c-green-50 {
+  color: var(--green-50);
+}
+.c-green-60 {
+  color: var(--green-60);
+}
+.c-green-70 {
+  color: var(--green-70);
+}
+.c-green-80 {
+  color: var(--green-80);
+}
+.c-green-90 {
+  color: var(--green-90);
+}
+
+.c-lime {
+  color: var(--lime);
+}
+.c-lime-5 {
+  color: var(--lime-5);
+}
+.c-lime-10 {
+  color: var(--lime-10);
+}
+.c-lime-20 {
+  color: var(--lime-20);
+}
+.c-lime-30 {
+  color: var(--lime-30);
+}
+.c-lime-40 {
+  color: var(--lime-40);
+}
+.c-lime-50 {
+  color: var(--lime-50);
+}
+.c-lime-60 {
+  color: var(--lime-60);
+}
+.c-lime-70 {
+  color: var(--lime-70);
+}
+.c-lime-80 {
+  color: var(--lime-80);
+}
+.c-lime-90 {
+  color: var(--lime-90);
+}
+
+.c-yellow {
+  color: var(--yellow);
+}
+.c-yellow-5 {
+  color: var(--yellow-5);
+}
+.c-yellow-10 {
+  color: var(--yellow-10);
+}
+.c-yellow-20 {
+  color: var(--yellow-20);
+}
+.c-yellow-30 {
+  color: var(--yellow-30);
+}
+.c-yellow-40 {
+  color: var(--yellow-40);
+}
+.c-yellow-50 {
+  color: var(--yellow-50);
+}
+.c-yellow-60 {
+  color: var(--yellow-60);
+}
+.c-yellow-70 {
+  color: var(--yellow-70);
+}
+.c-yellow-80 {
+  color: var(--yellow-80);
+}
+.c-yellow-90 {
+  color: var(--yellow-90);
+}
+
+.c-amber {
+  color: var(--amber);
+}
+.c-amber-5 {
+  color: var(--amber-5);
+}
+.c-amber-10 {
+  color: var(--amber-10);
+}
+.c-amber-20 {
+  color: var(--amber-20);
+}
+.c-amber-30 {
+  color: var(--amber-30);
+}
+.c-amber-40 {
+  color: var(--amber-40);
+}
+.c-amber-50 {
+  color: var(--amber-50);
+}
+.c-amber-60 {
+  color: var(--amber-60);
+}
+.c-amber-70 {
+  color: var(--amber-70);
+}
+.c-amber-80 {
+  color: var(--amber-80);
+}
+.c-amber-90 {
+  color: var(--amber-90);
+}
+
+.c-orange {
+  color: var(--orange);
+}
+.c-orange-5 {
+  color: var(--orange-50);
+}
+.c-orange-10 {
+  color: var(--orange-10);
+}
+.c-orange-20 {
+  color: var(--orange-20);
+}
+.c-orange-30 {
+  color: var(--orange-30);
+}
+.c-orange-40 {
+  color: var(--orange-40);
+}
+.c-orange-50 {
+  color: var(--orange-50);
+}
+.c-orange-60 {
+  color: var(--orange-60);
+}
+.c-orange-70 {
+  color: var(--orange-70);
+}
+.c-orange-80 {
+  color: var(--orange-80);
+}
+.c-orange-90 {
+  color: var(--orange-90);
+}
+
+.c-brown {
+  color: var(--brown);
+}
+.c-brown-5 {
+  color: var(--brown-5);
+}
+.c-brown-10 {
+  color: var(--brown-10);
+}
+.c-brown-20 {
+  color: var(--brown-20);
+}
+.c-brown-30 {
+  color: var(--brown-30);
+}
+.c-brown-40 {
+  color: var(--brown-40);
+}
+.c-brown-50 {
+  color: var(--brown-50);
+}
+.c-brown-60 {
+  color: var(--brown-60);
+}
+.c-brown-70 {
+  color: var(--brown-70);
+}
+.c-brown-80 {
+  color: var(--brown-80);
+}
+.c-brown-90 {
+  color: var(--brown-90);
+}
+
+.c-grey {
+  color: var(--grey);
+}
+.c-grey-5 {
+  color: var(--grey-5);
+}
+.c-grey-10 {
+  color: var(--grey-10);
+}
+.c-grey-20 {
+  color: var(--grey-20);
+}
+.c-grey-30 {
+  color: var(--grey-30);
+}
+.c-grey-40 {
+  color: var(--grey-40);
+}
+.c-grey-50 {
+  color: var(--grey-50);
+}
+.c-grey-60 {
+  color: var(--grey-60);
+}
+.c-grey-70 {
+  color: var(--grey-70);
+}
+.c-grey-80 {
+  color: var(--grey-80);
+}
+.c-grey-90 {
+  color: var(--grey-90);
+}
+
+.c-white {
+  color: var(--white);
+}
+.c-black {
+  color: var(--black);
+}

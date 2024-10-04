@@ -1,0 +1,36 @@
+/* position */
+
+.relative {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+}
+.fixed {
+  position: fixed;
+}
+
+.inset {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.xl-0 {
+  left: 0;
+}
+.xr-0 {
+  right: 0;
+}
+
+.yt-0 {
+  top: 0;
+}
+.yb-0 {
+  bottom: 0;
+}

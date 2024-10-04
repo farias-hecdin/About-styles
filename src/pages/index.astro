@@ -1,0 +1,58 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const propierties = [
+  { title: "Propierties", url: "/docs/propierties", icon: "fluent:book-question-mark-24-regular" },
+  { title: "Colors", url: "/docs/themes", icon: "fluent:color-24-regular" },
+];
+
+const components = [
+  { title: "Button", url: "/docs/button", icon: "fluent:button-16-regular" },
+  { title: "Card", url: "/docs/card", icon: "fluent:card-ui-20-regular" },
+  { title: "Controls", url: "/docs/inputs", icon: "fluent:options-16-regular" }, /* checkbox, switch, radio */
+  { title: "Dropdown", url: "/docs/dropdown", icon: "fluent:chevron-circle-down-48-regular" },
+  { title: "Input", url: "/docs/inputs", icon: "fluent:text-field-16-regular" },
+  { title: "Layout", url: "/docs/layout", icon: "fluent:layout-column-one-third-left-16-regular" },
+  { title: "List", url: "/docs/list", icon: "fluent:apps-list-20-filled" },
+  { title: "Menu", url: "/docs/menu", icon: "fluent:document-one-page-24-regular" },
+  { title: "Modal", url: "/docs/modal", icon: "fluent:window-multiple-20-filled" },
+  { title: "Navigation", url: "/docs/navigation", icon: "fluent:document-header-24-regular" },
+  { title: "Table", url: "/docs/table", icon: "fluent:table-freeze-row-24-regular" },
+  { title: "Tabs", url: '/docs/tabs', icon: "fluent:tab-desktop-24-regular" },
+  { title: "Text", url: '/docs/text', icon: "fluent:text-bold-16-regular" },
+  { title: "Title", url: "/docs/title", icon: "fluent:text-header-1-lines-16-filled" },
+];
+---
+
+<Layout title="AboutStyle">
+  <main>
+    <h1>AboutStyle</h1>
+    <code>1.2.1</code>
+    <h2 class="bb-regular pb-1">Quick introduction</h2>
+    <ul class="unlist d-grid gc-4 g-3 mt-6">
+      {
+        propierties.map((elem) => (
+          <li>
+            <a class="td-none p-3 px-4 r-1 bg-white d-flex ai-center g-2" href={elem.url}>
+              <iconify-icon icon={elem.icon} width="28" class="c-blue" />
+              <span class="c-black fw-medium">{elem.title}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <h2 class="bb-regular pb-1">Components</h2>
+    <ul class="unlist d-grid gc-4 g-3 mt-6">
+      {
+        components.map((elem) => (
+          <li>
+            <a class="td-none p-3 px4 r-1 bg-white d-flex ai-center g-2" href={elem.url}>
+              <iconify-icon icon={elem.icon} width="28" class="c-blue" />
+              <span class="c-black fw-medium">{elem.title}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Layout>

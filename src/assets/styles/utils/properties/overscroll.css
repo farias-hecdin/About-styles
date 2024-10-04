@@ -1,0 +1,8 @@
+/* overscroll-behavior */
+
+.ob-contain {
+  overscroll-behavior: contain;
+}
+.ob-auto {
+  overscroll-behavior: auto;
+}

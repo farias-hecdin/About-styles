@@ -1,0 +1,17 @@
+/* overflow */
+
+.o-auto {
+  overflow: auto;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.o-x {
+  overflow-x: auto;
+}
+
+.o-y {
+  overflow-y: auto;
+}

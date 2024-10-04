@@ -1,0 +1,126 @@
+/* COMPONENTS ============================================================== */
+
+.source {
+  position: relative;
+  overflow: hidden;
+  & p {
+    padding: 0.5rem 1rem;
+    margin: 0;
+    border-radius: 0.5rem 0.4rem;
+    color: var(--surface-3);
+    background-color: var(--surface-2);
+    text-transform: uppercase;
+  }
+  & pre {
+    overflow: auto;
+  }
+}
+
+.surface {
+  padding: 2.4rem 3rem 4rem;
+  background-color: var(--surface-2);
+  & > main {
+    min-height: 99vh;
+    padding: 2rem 4rem;
+    border-radius: 0.5rem;
+    background-color: var(--surface-1);
+  }
+}
+
+/* Items ------------------------------------------------------------------- */
+
+.items {
+  padding-left: 0;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid var(--th-border);
+  border-radius: 0.4rem;
+  background: var(--surface-3);
+}
+
+.items li > label {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Tabs ------------------------------------------------------------------- */
+
+.tabs {
+  display: flex;
+  margin: 0 0 0.5rem;
+  border-bottom: 1px solid var(--th-shadow);
+  list-style: none;
+}
+
+.tabs input {
+  display: none;
+}
+
+.tabs label {
+  padding: 0.5rem 1rem;
+  font-weight: var(--fo-bold);
+}
+
+.tabs input:checked + label {
+  border-bottom: 2px solid var(--surface-2);
+  color: var(--surface-2);
+}
+
+/* Switch ------------------------------------------------------------------- */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch > input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 34px;
+  background: var(--th-shadow);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: white;
+  transition: 0.4s;
+}
+
+.switch > input:checked + .slider {
+  background: var(--surface-2);
+}
+
+.switch > input:focus + .slider {
+  box-shadow: 0 0 1px var(--surface-2);
+}
+
+.switch > input:checked + .slider:before {
+  transform: translateX(26px);
+}

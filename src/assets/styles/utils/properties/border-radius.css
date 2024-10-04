@@ -1,0 +1,52 @@
+/* border-radius */
+
+.r-full {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.r-0 {
+  border-radius: 0;
+}
+.r-1 {
+  border-radius: calc(0.5rem * 1);
+}
+.r-2 {
+  border-radius: calc(0.5rem * 2);
+}
+.r-3 {
+  border-radius: calc(0.5rem * 3);
+}
+.r-4 {
+  border-radius: calc(0.5rem * 4);
+}
+.r-5 {
+  border-radius: calc(0.5rem * 5);
+}
+.r-6 {
+  border-radius: calc(0.5rem * 6);
+}
+.r-7 {
+  border-radius: calc(0.5rem * 7);
+}
+.r-8 {
+  border-radius: calc(0.5rem * 8);
+}
+.r-9 {
+  border-radius: calc(0.5rem * 9);
+}
+
+/* border-radius corner */
+
+.rtr-0 {
+  border-top-right-radius: 0;
+}
+.rtl-0 {
+  border-top-left-radius: 0;
+}
+.rbr-0 {
+  border-bottom-right-radius: 0;
+}
+.rbl-0 {
+  border-bottom-left-radius: 0;
+}

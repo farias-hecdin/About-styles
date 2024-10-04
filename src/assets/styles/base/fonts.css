@@ -1,0 +1,21 @@
+/* Fonts ------------------------------------------------------------------- */
+
+/* typography */
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap");
+
+:root {
+  /* font-family */
+
+  --fo-code: "Fira Code", monospace;
+  --fo-base: "Red Hat Text", sans-serif;
+  --fo-primary: var(--fo-base);
+
+  /* font-weight */
+
+  --fo-bold: 700;
+  --fo-medium: 500;
+  --fo-regular: 400;
+  --fo-light: 300;
+}
